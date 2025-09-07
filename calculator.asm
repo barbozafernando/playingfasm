@@ -67,6 +67,8 @@ _sub:
 
 fflush:
 
+    ; Exit the program
+    invoke ExitProcess, 0                               ; Exit with status code 0
 
 exit:
     mov rax, 60
